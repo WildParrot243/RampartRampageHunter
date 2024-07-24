@@ -5,10 +5,10 @@ using UnityEngine.UI;
 [SelectionBase]
 public class Enemy : MonoBehaviour, IDamageable
 {
-    [SerializeField] private EnemySO stats;
+    [SerializeField] protected EnemySO stats;
     [SerializeField] private Image healthBar;
     private float _health;
-    private RagdollCtrl ragdollCtrl;
+    protected RagdollCtrl ragdollCtrl;
     public static Action<Enemy> OnDefeated;
 
     protected Animator animation;
@@ -42,23 +42,11 @@ public class Enemy : MonoBehaviour, IDamageable
         sound = GetComponentInChildren<AudioSource>();
         ragdollCtrl = GetComponentInChildren<RagdollCtrl>();
 
-        movement.speed = stats.Speed;
+        
         animation.speed = stats.AnimationSpeed;
         totalEnemies += 1;
     }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        movement.SetDestination(Castle.pos);
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
     public float GetCollectedGems()
     {

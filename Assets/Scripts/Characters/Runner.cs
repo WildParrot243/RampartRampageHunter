@@ -12,5 +12,6 @@ public class Runner : Enemy
     {
         movement = GetComponent<NavMeshAgent>();
         movement.SetDestination(Castle.pos);
+        movement.speed = stats.Speed;
     }
 }
