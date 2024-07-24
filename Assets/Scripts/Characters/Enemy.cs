@@ -1,8 +1,5 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 using UnityEngine.UI;
 
 [SelectionBase]
@@ -16,14 +13,12 @@ public class Enemy : MonoBehaviour, IDamageable
 
     protected Animator animation;
     protected Rigidbody rb;
-    protected NavMeshAgent movement;
     protected AudioSource sound;
     public static int totalEnemies {  get; private set; }
     
     public float health { get => _health; set {
-
             _health = value;
-            healthBar.fillAmount = health / stats.MaxHealth;
+            if(healthBar) healthBar.fillAmount = health / maxHealth;
         }
     }
 
@@ -42,10 +37,8 @@ public class Enemy : MonoBehaviour, IDamageable
     void Awake()
     {
         health = stats.MaxHealth;
-
         animation = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody>();
-        movement = GetComponent<NavMeshAgent>();
         sound = GetComponentInChildren<AudioSource>();
         ragdollCtrl = GetComponentInChildren<RagdollCtrl>();
 
