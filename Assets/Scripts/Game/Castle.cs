@@ -23,7 +23,7 @@ public class Castle : MonoBehaviour
         Rigidbody rb = other.attachedRigidbody;
         if (rb && rb.TryGetComponent(out Enemy e)) 
         {
-            TakeDamage(e.damage);
+            TakeDamage(e.GetDamage());
             Destroy(e.gameObject);
         }
 

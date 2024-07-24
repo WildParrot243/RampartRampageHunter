@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78ef058b6661fc54c904d825e506f4b8, type: 3}
+  m_Name: Round 3
+  m_EditorClassIdentifier: 
+  <spawnEnemies>k__BackingField:
+  - Enemy: {fileID: 1666575115556061947, guid: 2832ee565774bf24c98273931b3454e8, type: 3}
+    Amount: 2
+  - Enemy: {fileID: 7611548994731897707, guid: 65bcb779502fe374688ba90b3bd881ce, type: 3}
+    Amount: 1
+  <dayDuration>k__BackingField: 10

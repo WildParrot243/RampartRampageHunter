@@ -46,7 +46,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 3
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -97,9 +97,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 387e8ad0fabf18840a2dfa276daa03ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stats: {fileID: 11400000, guid: bd8673136bc5c934baed416c326490c5, type: 2}
   healthBar: {fileID: 7400123360398841175}
-  <maxHealth>k__BackingField: 15
-  <damage>k__BackingField: 15
 --- !u!1001 &2483350709571975810
 PrefabInstance:
   m_ObjectHideFlags: 0

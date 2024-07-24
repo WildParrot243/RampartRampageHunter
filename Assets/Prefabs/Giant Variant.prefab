@@ -15,6 +15,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1666575115556061947, guid: 2832ee565774bf24c98273931b3454e8,
         type: 3}
+      propertyPath: stats
+      value: 
+      objectReference: {fileID: 11400000, guid: 032555f15f8c59a49a4c8e8af98239cd,
+        type: 2}
+    - target: {fileID: 1666575115556061947, guid: 2832ee565774bf24c98273931b3454e8,
+        type: 3}
       propertyPath: <maxHealth>k__BackingField
       value: 500
       objectReference: {fileID: 0}
@@ -91,7 +97,7 @@ PrefabInstance:
     - target: {fileID: 8223382399176268202, guid: 2832ee565774bf24c98273931b3454e8,
         type: 3}
       propertyPath: m_Speed
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8223382399176268202, guid: 2832ee565774bf24c98273931b3454e8,
         type: 3}

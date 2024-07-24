@@ -17,4 +17,4 @@ MonoBehaviour:
     Amount: 15
   - Enemy: {fileID: 7611548994731897707, guid: 65bcb779502fe374688ba90b3bd881ce, type: 3}
     Amount: 5
-  <dayDuration>k__BackingField: 180
+  <dayDuration>k__BackingField: 30

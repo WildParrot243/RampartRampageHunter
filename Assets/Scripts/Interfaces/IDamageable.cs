@@ -12,9 +12,12 @@ public interface IDamageable
 
     public void TakeDamage(float Damage) 
     {
-        health -= Damage;
+        if (health <= 0)
+            return;
+            health -= Damage;   
         if (health <= 0)
         {
+
             Die();
         }
     }
