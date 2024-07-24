@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Round
   m_EditorClassIdentifier: 
   <spawnEnemies>k__BackingField:
-  - Enemy: {fileID: 1666575115556061947, guid: 2832ee565774bf24c98273931b3454e8, type: 3}
-    Amount: 15
-  - Enemy: {fileID: 7611548994731897707, guid: 65bcb779502fe374688ba90b3bd881ce, type: 3}
+  - Enemy: {fileID: 4621656884228834474, guid: 2832ee565774bf24c98273931b3454e8, type: 3}
+    Amount: 10
+  - Enemy: {fileID: 4513194190874785082, guid: 65bcb779502fe374688ba90b3bd881ce, type: 3}
     Amount: 5
+  - Enemy: {fileID: 1066854019275210407, guid: 089fd9e8e28513c418eda44d3e5018d7, type: 3}
+    Amount: 3
   <dayDuration>k__BackingField: 30

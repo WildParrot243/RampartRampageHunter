@@ -10,8 +10,7 @@ public class Phantom : Enemy
     private int index;
     private Vector3 target;
     private Vector3 direction;
-    private const float stoppingDist = 5;
-    [SerializeField] private float speed;
+    private const float stoppingDist = 1;
     
     private void Awake()
     {
@@ -23,7 +22,7 @@ public class Phantom : Enemy
     private void FixedUpdate()
     {
         //Translate between points
-        float singleStep = (Time.fixedDeltaTime * speed);
+        float singleStep = (Time.fixedDeltaTime * stats.Speed);
         transform.position += direction * singleStep;// some speed value;
         transform.rotation =  Quaternion.LookRotation(Vector3.RotateTowards(transform.forward, direction, singleStep, 1f));
         //If we've reached the point, move towards the next point

@@ -127,10 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7673b8d8185f62d4c8c6df247409e89f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectedGems: 3
+  stats: {fileID: 11400000, guid: 7456f8bb9f0f6e24fad7d6bc845ffe9b, type: 2}
   healthBar: {fileID: 0}
-  <maxHealth>k__BackingField: 1
-  <damage>k__BackingField: 5
   speed: 10
 --- !u!1 &470560480950022087
 GameObject:

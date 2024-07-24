@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78ef058b6661fc54c904d825e506f4b8, type: 3}
-  m_Name: Round 3
+  m_Name: Round 1
   m_EditorClassIdentifier: 
   <spawnEnemies>k__BackingField:
-  - Enemy: {fileID: 1666575115556061947, guid: 2832ee565774bf24c98273931b3454e8, type: 3}
-    Amount: 2
-  - Enemy: {fileID: 7611548994731897707, guid: 65bcb779502fe374688ba90b3bd881ce, type: 3}
-    Amount: 1
-  <dayDuration>k__BackingField: 10
+  - Enemy: {fileID: 4621656884228834474, guid: 2832ee565774bf24c98273931b3454e8, type: 3}
+    Amount: 20
+  - Enemy: {fileID: 4513194190874785082, guid: 65bcb779502fe374688ba90b3bd881ce, type: 3}
+    Amount: 7
+  - Enemy: {fileID: 1066854019275210407, guid: 089fd9e8e28513c418eda44d3e5018d7, type: 3}
+    Amount: 3
+  <dayDuration>k__BackingField: 40
