@@ -16,6 +16,6 @@ MonoBehaviour:
   <minChargePercent>k__BackingField: 0.309
   <fireTime>k__BackingField: 0.5
   <isFullAuto>k__BackingField: 1
-  <numProjectiles>k__BackingField: 3
-  <spreadAngle>k__BackingField: 15
+  <numProjectiles>k__BackingField: 15
+  <spreadAngle>k__BackingField: 4
   <maxHoldTime>k__BackingField: 5

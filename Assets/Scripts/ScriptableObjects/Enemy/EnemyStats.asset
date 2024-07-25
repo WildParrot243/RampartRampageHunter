@@ -16,4 +16,4 @@ MonoBehaviour:
   maxHealth: 3
   value: 5
   animationSpeed: 1
-  speed: 6
+  speed: 4

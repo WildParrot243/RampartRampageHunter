@@ -12,7 +12,7 @@ public class Phantom : Enemy
     private Vector3 direction;
     private const float stoppingDist = 1;
     
-    private void Awake()
+    private void Start()
     {
         path = WaypointManager.ChooseRandomPath();
         transform.position = WaypointManager.GetNextLocation(path, ref index);

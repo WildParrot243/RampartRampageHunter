@@ -1,10 +1,12 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
 [SelectionBase]
 public class Enemy : MonoBehaviour, IDamageable
 {
+    private float CurrentSinkTime;
     [SerializeField] protected EnemySO stats;
     [SerializeField] private Image healthBar;
     private float _health;
@@ -15,7 +17,7 @@ public class Enemy : MonoBehaviour, IDamageable
     protected Rigidbody rb;
     protected AudioSource sound;
     public static int totalEnemies {  get; private set; }
-    
+    private bool isDead;
     public float health { get => _health; set {
             _health = value;
             if(healthBar) healthBar.fillAmount = health / maxHealth;
@@ -26,12 +28,16 @@ public class Enemy : MonoBehaviour, IDamageable
 
     public void Die()
     {
-        print("DEAD");
+        CurrentSinkTime = Mathf.Min(5, CurrentSinkTime + 1);
+        if (isDead) return;
+        isDead = true;
         // Destroy(gameObject);
       
         ragdollCtrl.BeginRagdoll();
+        if (healthBar)
         healthBar.transform.parent.gameObject.SetActive(false);
         OnDefeated.Invoke(this);
+        StartCoroutine(GoThroughGround());
     }
 
     void Awake()
@@ -67,5 +73,25 @@ public class Enemy : MonoBehaviour, IDamageable
             totalEnemies = 0;
             GameManager.Instance.OnRoundEnd();
         }
+    }
+
+    private IEnumerator GoThroughGround()
+    {
+        while (CurrentSinkTime > 0)
+        {
+            CurrentSinkTime -= Time.deltaTime;
+            yield return null;
+        }
+
+        rb.isKinematic = true;
+        ragdollCtrl.FreezeRagdoll();
+        while (transform.position.y >= 0)
+        {
+            transform.position += Vector3.down * (Time.deltaTime * 3);
+            yield return null;
+
+        }
+
+        Destroy(gameObject);
     }
 }

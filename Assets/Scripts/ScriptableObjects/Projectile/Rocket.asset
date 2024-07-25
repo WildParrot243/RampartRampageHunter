@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a41bada82382bb74e933faf7366715e4, type: 3}
   m_Name: Rocket
   m_EditorClassIdentifier: 
-  <minDamage>k__BackingField: 2
-  <maxDamage>k__BackingField: 8
+  <minDamage>k__BackingField: 10
+  <maxDamage>k__BackingField: 20
   <minSpeed>k__BackingField: 3
-  <maxSpeed>k__BackingField: 10
+  <maxSpeed>k__BackingField: 5
   <impactSound>k__BackingField: {fileID: 0}
   <impactEffect>k__BackingField: {fileID: 7851874051655896913, guid: ec83149df78800942bb53203c306c2e5,
     type: 3}
-  <explosionRadius>k__BackingField: 7
+  <explosionRadius>k__BackingField: 10

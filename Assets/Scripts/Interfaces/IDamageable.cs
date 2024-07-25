@@ -13,14 +13,14 @@ public interface IDamageable
 
     public void TakeDamage(float Damage) 
     {
-        Debug.Log("Hit for dmg:" + Damage + " hp = " + health);
-        if (health <= 0)
-            return;
+        
             health -= Damage;   
-        if (health <= 0)
+        if (health < 0)
         {
 
             Die();
+
+
         }
     }
 

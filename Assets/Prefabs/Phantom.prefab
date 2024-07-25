@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2465383750855583799}
   - component: {fileID: 3572673541145937693}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LWingEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ GameObject:
   - component: {fileID: 4629774241363706718}
   - component: {fileID: 7610390378563570142}
   - component: {fileID: 1066854019275210407}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Phantom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +129,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: 7456f8bb9f0f6e24fad7d6bc845ffe9b, type: 2}
   healthBar: {fileID: 0}
-  speed: 10
 --- !u!1 &470560480950022087
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,7 +138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 591410077654952781}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Head_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 130881857575603107}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -203,7 +202,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7490500224485991447}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,7 +237,7 @@ GameObject:
   - component: {fileID: 5073337149026378853}
   - component: {fileID: 723069616625972104}
   - component: {fileID: 4060807636655786469}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LWing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -365,7 +364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1195799063019458058}
   - component: {fileID: 2355416925467245883}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,7 +419,7 @@ GameObject:
   - component: {fileID: 6981605888828657080}
   - component: {fileID: 5679195537940700050}
   - component: {fileID: 8449492019231864484}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tailbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -537,7 +536,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3767996656283662589}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RWingEnd_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -568,7 +567,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1581535348735527817}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LWingEnd_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -601,7 +600,7 @@ GameObject:
   - component: {fileID: 6643456688973933472}
   - component: {fileID: 1133695688462158006}
   - component: {fileID: 1491967284635748234}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spine0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -686,7 +685,7 @@ GameObject:
   - component: {fileID: 1543832195975554193}
   - component: {fileID: 2959466246909864116}
   - component: {fileID: 5770319134965839761}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RWing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -806,7 +805,7 @@ GameObject:
   - component: {fileID: 8392259250910447642}
   - component: {fileID: 6562950227703149550}
   - component: {fileID: 446793645667683504}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tailbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -932,7 +931,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2896864160995263305}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tail_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -965,7 +964,7 @@ GameObject:
   - component: {fileID: 3761277876051606976}
   - component: {fileID: 2131669514670215982}
   - component: {fileID: 654016672826826029}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RClavice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1071,7 +1070,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7003809505492136721}
   - component: {fileID: 2800855413756957991}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RWingEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1127,7 +1126,7 @@ GameObject:
   - component: {fileID: 5517766173379819927}
   - component: {fileID: 4883889249726312797}
   - component: {fileID: 6401347964011071042}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RWing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1256,7 +1255,7 @@ GameObject:
   - component: {fileID: 6409198099038946653}
   - component: {fileID: 6877047437623893060}
   - component: {fileID: 2265876498955486645}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1374,7 +1373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3552452891593169536}
   - component: {fileID: 4452698797778304819}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1429,7 +1428,7 @@ GameObject:
   - component: {fileID: 321164603542814413}
   - component: {fileID: 1107175986218515572}
   - component: {fileID: 3364431573260361981}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1548,7 +1547,7 @@ GameObject:
   - component: {fileID: 7481985126911559987}
   - component: {fileID: 8633116222121891651}
   - component: {fileID: 8208411655354475958}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LClavice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1653,7 +1652,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2072778230925997126}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1687,7 +1686,7 @@ GameObject:
   - component: {fileID: 4465807743405420252}
   - component: {fileID: 3632477810184057925}
   - component: {fileID: 7703434694664593925}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RClavice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1806,7 +1805,7 @@ GameObject:
   - component: {fileID: 2241311892252253041}
   - component: {fileID: 4425723444533399092}
   - component: {fileID: 8336748546720665590}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LClavice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1925,7 +1924,7 @@ GameObject:
   - component: {fileID: 3525635094132281411}
   - component: {fileID: 7977889193228624003}
   - component: {fileID: 572968273749584622}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2044,7 +2043,7 @@ GameObject:
   - component: {fileID: 6976894107178909290}
   - component: {fileID: 7068997654295304690}
   - component: {fileID: 2428548650173371155}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LWing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2164,7 +2163,7 @@ GameObject:
   - component: {fileID: 5268823723108669349}
   - component: {fileID: 4321083103564847182}
   - component: {fileID: 8481890662828682674}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Phantom
   m_TagString: Untagged
   m_Icon: {fileID: 0}

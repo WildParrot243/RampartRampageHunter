@@ -8,7 +8,7 @@ public class Runner : Enemy
 {
     protected NavMeshAgent movement;
 
-    private void Awake()
+    private void Start()
     {
         movement = GetComponent<NavMeshAgent>();
         movement.SetDestination(Castle.pos);

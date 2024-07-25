@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c5f5a3485c1c934cac475346534f654, type: 3}
   m_Name: PhantomStats
   m_EditorClassIdentifier: 
-  damage: 0
-  maxHealth: 0
-  value: 0
-  animationSpeed: 0
-  speed: 0
+  damage: 2
+  maxHealth: 1
+  value: 50
+  animationSpeed: 3
+  speed: 2

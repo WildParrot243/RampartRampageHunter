@@ -9,7 +9,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private Stats stats;
-    public static GameManager Instance { get; private set;}
+    public static GameManager Instance { get; private set; }
+    [SerializeField] private GameObject mainMenu;
 
     // Start is called before the first frame update
     void Awake()
@@ -30,12 +31,13 @@ public class GameManager : MonoBehaviour
 
     }
 
-    void Start()
+    public void StartGame()
     {
       
         print(GameSaver.SaveData.waveNumber);
       SpawnManager.Instance.StartRound(GameSaver.SaveData.waveNumber);
         stats.OnNewRound();
+        mainMenu.SetActive(false);
     }
 
 
@@ -58,6 +60,7 @@ public class GameManager : MonoBehaviour
         }
         GameSaver.Save();
         stats.OnNewRound();
+        mainMenu.SetActive(true);
     }
 
     private void OnGameEnd()
